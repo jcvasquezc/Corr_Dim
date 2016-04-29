@@ -25,6 +25,8 @@ Examples
   print 'time-lag='+str(tau)
   print 'correlation dimension='+str(cd)
   
+.. image:: attractor1.png
+
   t=np.asarray(range(1000))/1000.0
   x=np.sin(2*np.pi*10*t)+np.sin(2*np.pi*100*t)+t*np.sin(2*np.pi*30*t)
   m=fnn(x, 15)
@@ -34,3 +36,4 @@ Examples
   print 'time-lag='+str(tau)
   print 'correlation dimension='+str(cd)
 
+.. image:: attractor2.png
