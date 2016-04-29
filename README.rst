@@ -36,4 +36,4 @@ Examples
   print 'time-lag='+str(tau)
   print 'correlation dimension='+str(cd)
 
-  image:: attractor2.png
+  .. image:: attractor2.png
